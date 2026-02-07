@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+
+mediapipe
+numpy
+scikit-learn
+joblib
+pandas
+
+opencv-python-headless
+pillow
+
+python-multipart
+requests
