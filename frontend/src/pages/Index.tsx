@@ -11,9 +11,7 @@ import { usePrediction } from '@/hooks/usePrediction';
 const Index = () => {
   const [isCapturing, setIsCapturing] = useState(false);
   const [captureInterval, setCaptureInterval] = useState(500);
-  const [backendUrl, setBackendUrl] = useState(
-  import.meta.env.VITE_BACKEND_URL ?? "http://localhost:8000"
-);
+  const [backendUrl, setBackendUrl] = useState("http://localhost:8000");
 
   const {
     currentPrediction,
